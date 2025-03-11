@@ -4,14 +4,14 @@ import { Link } from 'react-router-dom'
 function Sidebar() {
     // let navigate=useNavigate;
   return <>
-    <ul className="navbar-nav  sidebar sidebar-dark accordion" style={{backgroundColor:'#e398d9'}} id="accordionSidebar">
+    <ul className="navbar-nav  sidebar sidebar-dark accordion" style={{backgroundColor:'#c9c8c5', color:'black'}} id="accordionSidebar">
 
 {/* <!-- Sidebar - Brand --> */}
 <a className="sidebar-brand d-flex align-items-center justify-content-center"  href="index.html">
     <div className="sidebar-brand-icon rotate-n-15">
-    <i class="fa-sharp fa-solid fa-school-circle-check"></i>
+    
     </div>
-    <div className="sidebar-brand-text mx-3">Student-Teacher Management</div>
+    <div className="sidebar-brand-text mx-3" style={{color:'#1a4cf0'}}>Student-Teacher Management</div>
 </a>
 
 {/* <!-- Divider --> */}
